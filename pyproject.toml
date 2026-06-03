@@ -1,0 +1,18 @@
+[project]
+name = "fuzzy-hvac-control-system"
+version = "0.1.0"
+description = "Smart HVAC temperature controller based on fuzzy logic"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "scikit-fuzzy>=0.4.2",
+    "scipy>=1.10.0",
+    "networkx>=3.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "matplotlib-inline>=0.2.2",
+    "ipython>=8.39.0",
+]
+
+[tool.uv]
+managed = true
