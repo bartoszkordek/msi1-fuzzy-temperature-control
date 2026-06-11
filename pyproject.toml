@@ -12,6 +12,7 @@ dependencies = [
     "matplotlib>=3.7.0",
     "matplotlib-inline>=0.2.2",
     "ipython>=8.39.0",
+    "ipykernel>=7.3.0",
 ]
 
 [tool.uv]
